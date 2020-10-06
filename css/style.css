@@ -19,6 +19,33 @@ body {
   max-width: 900px;
   width: 100%; }
 
+.generic-button {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  padding: 0.5rem 3rem;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  border-radius: 4px 4px 4px 4px;
+  transition: All 0.1s ease-in;
+  -webkit-transition: All 0.1s ease-in;
+  -moz-transition: All 0.1s ease-in;
+  -o-transition: All 0.1s ease-in;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; }
+  .generic-button.blue {
+    background: #0069AE;
+    color: #fff; }
+    .generic-button.blue:hover {
+      background: #005a9f; }
+  .generic-button.white {
+    color: #0069AE;
+    background: #fff; }
+    .generic-button.white:hover {
+      background: #ebebeb; }
+  .generic-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.3) !important; }
+
 .site-menu {
   background: #fff;
   min-height: 75px;
@@ -183,6 +210,54 @@ header.hero-header {
             width: 95vw;
             font-size: 1rem;
             line-height: 1.5rem; } }
+    header.hero-header.interior.landing {
+      min-height: auto;
+      height: auto;
+      width: 100vw; }
+      @media (max-width: 767px) {
+        header.hero-header.interior.landing {
+          padding: 2.5rem 0; } }
+      header.hero-header.interior.landing .content {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        @media (max-width: 767px) {
+          header.hero-header.interior.landing .content {
+            min-height: auto;
+            height: auto; } }
+        header.hero-header.interior.landing .content h1 {
+          color: #fff;
+          display: block;
+          width: 100%; }
+          @media (max-width: 767px) {
+            header.hero-header.interior.landing .content h1 {
+              text-align: center;
+              font-size: 1.75rem; } }
+        header.hero-header.interior.landing .content .formlanding {
+          background: #fff;
+          padding: 1.5rem;
+          box-shadow: 0px 4px 12px #002438;
+          border-radius: 6px 6px 6px 6px; }
+          header.hero-header.interior.landing .content .formlanding h3.formtitle {
+            color: #002438;
+            font-size: 1.1rem;
+            text-shadow: none;
+            font-weight: bold;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 1;
+            margin-bottom: 0; }
+          header.hero-header.interior.landing .content .formlanding p.headline {
+            color: #666666;
+            text-shadow: none;
+            font-weight: 400;
+            text-align: center;
+            font-size: 1rem; }
+          header.hero-header.interior.landing .content .formlanding form .form-row .form-group .form-control {
+            background: #f7f7f7;
+            border: 1px solid #c8c8c8; }
 
 section.common {
   position: relative;
@@ -206,32 +281,6 @@ section.common {
   section.common p {
     color: #666666;
     font-size: 1rem; }
-  section.common .generic-button {
-    font-size: 1rem;
-    font-family: "Open Sans", sans-serif;
-    padding: 0.5rem 3rem;
-    text-decoration: none;
-    border: none;
-    display: inline-block;
-    border-radius: 4px 4px 4px 4px;
-    transition: All 0.1s ease-in;
-    -webkit-transition: All 0.1s ease-in;
-    -moz-transition: All 0.1s ease-in;
-    -o-transition: All 0.1s ease-in;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; }
-    section.common .generic-button.blue {
-      background: #0069AE;
-      color: #fff; }
-      section.common .generic-button.blue:hover {
-        background: #005a9f; }
-    section.common .generic-button.white {
-      color: #0069AE;
-      background: #fff; }
-      section.common .generic-button.white:hover {
-        background: #ebebeb; }
-    section.common .generic-button:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.3) !important; }
   section.common.cropped-left:before {
     position: absolute;
     top: -125px;
@@ -344,7 +393,7 @@ section.common {
     color: #fff; }
     section.common#start-proyect h3 {
       font-family: "Kanit", sans-serif;
-      font-weigbt: bold;
+      font-weight: bold;
       letter-spacing: 1px;
       margin-bottom: 1rem; }
     section.common#start-proyect p {

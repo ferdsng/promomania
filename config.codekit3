@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26268",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/central-de-capital-humano.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -62,6 +69,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/detalle-proyecto.html",
+		"oF": 0
+		},
+	"\/diseno-empaques.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/diseno-empaques.html",
 		"oF": 0
 		},
 	"\/fonts\/copperplate\/copperplate_bold-webfont.woff": {
@@ -463,6 +477,24 @@
 		"oAP": "\/proyectos.html",
 		"oF": 2,
 		"oS": 0
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/scss\/style.scss": {
 		"aP": 0,
