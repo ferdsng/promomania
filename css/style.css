@@ -216,7 +216,7 @@ header.hero-header {
       min-height: 50vh;
       height: 60vh;
       width: 100vw;
-      background: #fff url("../images/landing/header-landing.jpg") no-repeat center center; }
+      background: #fff url("https://kuiloa.mx/devs/ruizrocha/images/landing/header-landing.jpg") no-repeat center center; }
       @media (max-width: 991px) {
         header.hero-header.interior.landing {
           padding: 2.5rem 0;
