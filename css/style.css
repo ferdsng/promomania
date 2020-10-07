@@ -211,27 +211,30 @@ header.hero-header {
             font-size: 1rem;
             line-height: 1.5rem; } }
     header.hero-header.interior.landing {
-      min-height: auto;
-      height: auto;
+      min-height: 50vh;
+      height: 60vh;
       width: 100vw; }
-      @media (max-width: 767px) {
+      @media (max-width: 991px) {
         header.hero-header.interior.landing {
-          padding: 2.5rem 0; } }
+          padding: 2.5rem 0;
+          min-height: 1vh;
+          height: auto; } }
       header.hero-header.interior.landing .content {
-        height: auto;
+        height: 60vh;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column; }
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
           header.hero-header.interior.landing .content {
             min-height: auto;
             height: auto; } }
         header.hero-header.interior.landing .content h1 {
           color: #fff;
           display: block;
-          width: 100%; }
-          @media (max-width: 767px) {
+          width: 100%;
+          font-family: "Kanit", sans-serif; }
+          @media (max-width: 991px) {
             header.hero-header.interior.landing .content h1 {
               text-align: center;
               font-size: 1.75rem; } }
