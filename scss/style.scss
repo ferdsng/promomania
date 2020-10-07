@@ -126,7 +126,7 @@ body{
 }
 
 header.hero-header{
-  background:$blanco url('../images/ruiz-rocha-asociados.jpg') no-repeat center center;
+  background:$blanco url('https://kuiloa.mx/devs/ruizrocha/images/ruiz-rocha-asociados.jpg') no-repeat center center;
   height:calc(100vh - 150px);
   width:100vw;
   -webkit-background-size: cover;
@@ -348,7 +348,7 @@ section.common{
       top:-125px;
       left:0;
       content:'';
-      background:url('../images/triangle-white-left-before.png');
+      background:url('https://kuiloa.mx/devs/ruizrocha/images/triangle-white-left-before.png');
       max-width:1920px;
       width:100vw;
       height:125px;
@@ -364,7 +364,7 @@ section.common{
       top:-125px;
       left:0;
       content:'';
-      background:url('../images/triangle-white-right-before.png');
+      background:url('https://kuiloa.mx/devs/ruizrocha/images/triangle-white-right-before.png');
       max-width:1920px;
       width:100vw;
       height:125px;
@@ -383,7 +383,7 @@ section.common{
       top:-125px;
       left:0;
       content:'';
-      background:url('../images/triangle-white-double-before.png');
+      background:url('https://kuiloa.mx/devs/ruizrocha/images/triangle-white-double-before.png');
       max-width:1920px;
       width:100vw;
       height:125px;
@@ -659,7 +659,7 @@ section.common{
       top:-125px;
       left:0;
       content:'';
-      background:url('../images/triangle-blue-left-before.png');
+      background:url('https://kuiloa.mx/devs/ruizrocha/images/triangle-blue-left-before.png');
       max-width:1920px;
       width:100vw;
       height:125px;
@@ -798,7 +798,7 @@ section.common{
         top:-125px;
         left:0;
         content:'';
-        background:url('../images/triangle-white-left-before.png');
+        background:url('https://kuiloa.mx/devs/ruizrocha/images/triangle-white-left-before.png');
         max-width:1920px;
         width:100vw;
         height:125px;
@@ -999,7 +999,7 @@ footer{
             height:36px;
             background:$grisclaro;
             display:block;
-            background:url('../images/social-media-icons.svg') no-repeat;
+            background:url('https://kuiloa.mx/devs/ruizrocha/images/social-media-icons.svg') no-repeat;
             background-size:200px 36px;
             @include trans(All, 0.1s, linear);
             &.facebook{
