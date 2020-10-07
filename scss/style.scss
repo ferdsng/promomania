@@ -1,16 +1,3 @@
-@import url('bootstrap.min.css');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Kanit:700,900&display=swap');
-
-@font-face {
-    font-family: 'copperplatebold';
-    src: url('../fonts/copperplate/copperplate_bold-webfont.woff2') format('woff2'),
-         url('../fonts/copperplate/copperplate_bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 $blanco:#fff;
 $grisclaro:#EAEAEA;
 $gristexto:#666666;
@@ -37,6 +24,22 @@ $b:1rem;
 @mixin bs($hor, $vert, $blur, $color){
   box-shadow:$hor $vert $blur $color;
 }
+
+@import url('bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit:700,900&display=swap');
+@import url('owl.carousel.min.css');
+@import url('owl.theme.default.min.css');
+
+@font-face {
+    font-family: 'copperplatebold';
+    src: url('../fonts/copperplate/copperplate_bold-webfont.woff2') format('woff2'),
+         url('../fonts/copperplate/copperplate_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 
 body{
@@ -287,8 +290,9 @@ header.hero-header{
         .formlanding{
           background:$blanco;
           padding:$b*1.5;
-          box-shadow:0px 4px 12px $azuloscuro;
+          box-shadow:0px 4px 12px rgba(0, 36, 56, 0.35);
           @include br(6px);
+          z-index:999;
           h3.formtitle{
             color:$azuloscuro;
             font-size:$b*1.1;
@@ -297,14 +301,15 @@ header.hero-header{
             letter-spacing:0;
             text-align:center;
             line-height:1;
-            margin-bottom:0;
+            margin-bottom:$b/3;
           }
           p.headline{
             color:$gristexto;
             text-shadow: none;
             font-weight:400;
             text-align: center;
-            font-size: $b;
+            font-size:$b - 0.1;
+            margin-bottom:$b*1.5;
           }
           form{
             .form-row{
@@ -828,6 +833,16 @@ section.common{
         textarea{
           resize:none;
         }
+      }
+    }
+  }
+  /*Landing*/
+  &#landingProcessDesign{
+    .content{
+      .icon-process{
+        background:$azulclaro;
+        height:$b*4;
+        width:$b*4;
       }
     }
   }

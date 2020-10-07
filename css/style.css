@@ -1,6 +1,8 @@
 @import url("bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Kanit:700,900&display=swap");
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.min.css");
 @font-face {
   font-family: 'copperplatebold';
   src: url("../fonts/copperplate/copperplate_bold-webfont.woff2") format("woff2"), url("../fonts/copperplate/copperplate_bold-webfont.woff") format("woff");
@@ -241,8 +243,9 @@ header.hero-header {
         header.hero-header.interior.landing .content .formlanding {
           background: #fff;
           padding: 1.5rem;
-          box-shadow: 0px 4px 12px #002438;
-          border-radius: 6px 6px 6px 6px; }
+          box-shadow: 0px 4px 12px rgba(0, 36, 56, 0.35);
+          border-radius: 6px 6px 6px 6px;
+          z-index: 999; }
           header.hero-header.interior.landing .content .formlanding h3.formtitle {
             color: #002438;
             font-size: 1.1rem;
@@ -251,13 +254,14 @@ header.hero-header {
             letter-spacing: 0;
             text-align: center;
             line-height: 1;
-            margin-bottom: 0; }
+            margin-bottom: 0.3333333333rem; }
           header.hero-header.interior.landing .content .formlanding p.headline {
             color: #666666;
             text-shadow: none;
             font-weight: 400;
             text-align: center;
-            font-size: 1rem; }
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem; }
           header.hero-header.interior.landing .content .formlanding form .form-row .form-group .form-control {
             background: #f7f7f7;
             border: 1px solid #c8c8c8; }
@@ -270,7 +274,8 @@ section.common {
   /*Projects Grid*/
   /*Services Goals*/
   /*Services Projects*/
-  /*Contact Form*/ }
+  /*Contact Form*/
+  /*Landing*/ }
   section.common.min {
     padding: 4rem 0; }
   section.common.med {
@@ -682,6 +687,10 @@ section.common {
         box-shadow: 0 0 4px 0.15rem rgba(0, 105, 174, 0.2); }
     section.common#contactForm form .form-group textarea {
       resize: none; }
+  section.common#landingProcessDesign .content .icon-process {
+    background: #0069AE;
+    height: 4rem;
+    width: 4rem; }
 
 /*Footer*/
 footer {
