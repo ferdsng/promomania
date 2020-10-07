@@ -262,6 +262,7 @@ header.hero-header{
       min-height:50vh;
       height:60vh;
       width:100vw;
+      background:$blanco url('../images/landing/header-landing.jpg') no-repeat center center;
       @media (max-width:991px){
         padding:$b*2.5 0;
         min-height:1vh;
@@ -848,6 +849,9 @@ section.common{
         display:block;
         @include br(50%);
         position:relative;
+        @media (max-width:991px){
+          margin:$b*3 auto $b*2 auto; 
+        }
         &.process-one{
           padding:22px 12px;
         }
@@ -875,13 +879,21 @@ section.common{
           right:-5px;
         }
       }
-      h4{
+      h4.process-title{
         color:$azuloscuro;
         font-size:$b*1.25;
         font-weight:bold;
+        @media (max-width:991px){
+          text-align:center;
+        }
       }
       p{
-        font-size:$b - 0.1;
+        font-size:$b;
+        &.process-description{
+          @media (max-width:991px){
+            text-align: center;
+          }
+        }
       }
     }
   }
@@ -894,13 +906,33 @@ section.common{
       #sketchEmpaque{
         min-height:25vh;
         height:50vh;
-        background: url('https://placehold.it/1200x800/ccc') no-repeat;
+        background: url('https://kuiloa.mx/devs/ruizrocha/images/landing/design-packaging.jpg') no-repeat;
         background-size: cover;
         background-position:center;
       }
       .content{
         &.floated{
-          padding:$b*2 $b*3;
+          padding:$b*4 $b*3;
+          h4{
+            font-size:$b;
+            font-family:$kanit;
+            letter-spacing: 1px;
+            color:$azuloscuro;
+          }
+          .servicios-diseno{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            ul{
+              width:100%;
+              padding-left:0;
+              li{
+                width:100%;
+                list-style: none;
+                margin-bottom: $b/2;
+              }
+            }
+          }
         }
       }
     }

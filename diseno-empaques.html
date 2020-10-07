@@ -124,42 +124,42 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="content">
-                    <img src="images/landing/empaque-1.jpg" alt="" class="img-fluid">
+                    <img src="https://kuiloa.mx/devs/ruizrocha/images/landing/empaque-1.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="content">
-                    <img src="images/landing/empaque-2.jpg" alt="" class="img-fluid">
+                    <img src="https://kuiloa.mx/devs/ruizrocha/images/landing/empaque-2.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="content">
-                    <img src="images/landing/empaque-3.jpg" alt="" class="img-fluid">
+                    <img src="https://kuiloa.mx/devs/ruizrocha/images/landing/empaque-3.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="content">
-                    <img src="images/landing/empaque-4.jpg" alt="" class="img-fluid">
+                    <img src="https://kuiloa.mx/devs/ruizrocha/images/landing/empaque-4.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="content">
-                    <img src="images/landing/empaque-5.jpg" alt="" class="img-fluid">
+                    <img src="https://kuiloa.mx/devs/ruizrocha/images/landing/empaque-5.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="content">
-                    <img src="images/landing/empaque-6.jpg" alt="" class="img-fluid">
+                    <img src="https://kuiloa.mx/devs/ruizrocha/images/landing/empaque-6.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="content">
-                    <img src="images/landing/empaque-7.jpg" alt="" class="img-fluid">
+                    <img src="https://kuiloa.mx/devs/ruizrocha/images/landing/empaque-7.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="content">
-                    <img src="images/landing/empaque-8.jpg" alt="" class="img-fluid">
+                    <img src="https://kuiloa.mx/devs/ruizrocha/images/landing/empaque-8.jpg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -196,8 +196,8 @@
                         </svg>
                         <span>1</span>
                     </div>
-                    <h4>Research</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod</p>
+                    <h4 class="process-title">Research</h4>
+                    <p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod</p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-12">
@@ -250,8 +250,8 @@
                         </svg>
                         <span>2</span>
                     </div>
-                    <h4>Ideas</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod</p>
+                    <h4 class="process-title">Ideas</h4>
+                    <p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod</p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-12">
@@ -276,7 +276,7 @@
                         </svg>
                         <span>3</span>
                     </div>
-                    <h4>Design</h4>
+                    <h4 class="process-title">Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod</p>
                 </div>
             </div>
@@ -313,8 +313,8 @@
 
                         <span>4</span>
                     </div>
-                    <h4>Launch</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod</p>
+                    <h4 class="process-title">Launch</h4>
+                    <p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod</p>
                 </div>
             </div>
         </div>
@@ -334,15 +334,17 @@
                             <h3 class="title">¿Tu producto o el de la competencia?</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <h4>SERVICIOS</h4>
-                            <ul>
-                                <li>Diseño de Empaque</li>
-                                <li>Pruebas de Concepto</li>
-                                <li>Prototipos</li>
-                            </ul>
-                            <ul>
-                                <li>Experiencias Retail</li>
-                                <li>Lenguaje Visual</li>
-                            </ul>
+                            <div class="servicios-diseno">
+                                <ul>
+                                    <li>Diseño de Empaque</li>
+                                    <li>Pruebas de Concepto</li>
+                                    <li>Prototipos</li>
+                                </ul>
+                                <ul>
+                                    <li>Experiencias Retail</li>
+                                    <li>Lenguaje Visual</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -418,13 +420,16 @@ $('.owl-carousel').owlCarousel({
     nav:false,
     responsive:{
         0:{
-            items:3
+            items:3,
+            margin:40
         },
         600:{
-            items:3
+            items:3,
+            margin:60
         },
         1000:{
-            items:5
+            items:5,
+            margin:80
         }
     }
 })

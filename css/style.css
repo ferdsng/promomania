@@ -215,7 +215,8 @@ header.hero-header {
     header.hero-header.interior.landing {
       min-height: 50vh;
       height: 60vh;
-      width: 100vw; }
+      width: 100vw;
+      background: #fff url("../images/landing/header-landing.jpg") no-repeat center center; }
       @media (max-width: 991px) {
         header.hero-header.interior.landing {
           padding: 2.5rem 0;
@@ -698,6 +699,9 @@ section.common {
     display: block;
     border-radius: 50% 50% 50% 50%;
     position: relative; }
+    @media (max-width: 991px) {
+      section.common#landingProcessDesign .content .icon-process {
+        margin: 3rem auto 2rem auto; } }
     section.common#landingProcessDesign .content .icon-process.process-one {
       padding: 22px 12px; }
     section.common#landingProcessDesign .content .icon-process.process-two {
@@ -719,12 +723,18 @@ section.common {
       position: absolute;
       top: 0;
       right: -5px; }
-  section.common#landingProcessDesign .content h4 {
+  section.common#landingProcessDesign .content h4.process-title {
     color: #002438;
     font-size: 1.25rem;
     font-weight: bold; }
+    @media (max-width: 991px) {
+      section.common#landingProcessDesign .content h4.process-title {
+        text-align: center; } }
   section.common#landingProcessDesign .content p {
-    font-size: 0.9rem; }
+    font-size: 1rem; }
+    @media (max-width: 991px) {
+      section.common#landingProcessDesign .content p.process-description {
+        text-align: center; } }
   section.common#tuCompetencia {
     background: #f9f9f9; }
     section.common#tuCompetencia .container-fluid {
@@ -733,11 +743,27 @@ section.common {
       section.common#tuCompetencia .container-fluid #sketchEmpaque {
         min-height: 25vh;
         height: 50vh;
-        background: url("https://placehold.it/1200x800/ccc") no-repeat;
+        background: url("https://kuiloa.mx/devs/ruizrocha/images/landing/design-packaging.jpg") no-repeat;
         background-size: cover;
         background-position: center; }
       section.common#tuCompetencia .container-fluid .content.floated {
-        padding: 2rem 3rem; }
+        padding: 4rem 3rem; }
+        section.common#tuCompetencia .container-fluid .content.floated h4 {
+          font-size: 1rem;
+          font-family: "Kanit", sans-serif;
+          letter-spacing: 1px;
+          color: #002438; }
+        section.common#tuCompetencia .container-fluid .content.floated .servicios-diseno {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: auto; }
+          section.common#tuCompetencia .container-fluid .content.floated .servicios-diseno ul {
+            width: 100%;
+            padding-left: 0; }
+            section.common#tuCompetencia .container-fluid .content.floated .servicios-diseno ul li {
+              width: 100%;
+              list-style: none;
+              margin-bottom: 0.5rem; }
   section.common#testimonial {
     background: #002438; }
     section.common#testimonial .content h4 {

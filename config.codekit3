@@ -239,6 +239,16 @@
 		"oAP": "\/images\/favicons\/site.webmanifest",
 		"oF": 0
 		},
+	"\/images\/landing\/design-packaging.jpg": {
+		"ft": 16384,
+		"iS": 908822,
+		"oA": 0,
+		"oAP": "\/images\/landing\/design-packaging.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/landing\/empaque-1.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -314,6 +324,16 @@
 		"iS": 36352,
 		"oA": 0,
 		"oAP": "\/images\/landing\/empaque-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/landing\/header-landing.jpg": {
+		"ft": 16384,
+		"iS": 538228,
+		"oA": 0,
+		"oAP": "\/images\/landing\/header-landing.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
