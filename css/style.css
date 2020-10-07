@@ -275,7 +275,9 @@ section.common {
   /*Services Goals*/
   /*Services Projects*/
   /*Contact Form*/
-  /*Landing*/ }
+  /*Landing*/
+  /*Competencia*/
+  /*Testimonial*/ }
   section.common.min {
     padding: 4rem 0; }
   section.common.med {
@@ -688,9 +690,63 @@ section.common {
     section.common#contactForm form .form-group textarea {
       resize: none; }
   section.common#landingProcessDesign .content .icon-process {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     background: #0069AE;
-    height: 4rem;
-    width: 4rem; }
+    height: 4.5rem;
+    width: 4.5rem;
+    display: block;
+    border-radius: 50% 50% 50% 50%;
+    position: relative; }
+    section.common#landingProcessDesign .content .icon-process.process-one {
+      padding: 22px 12px; }
+    section.common#landingProcessDesign .content .icon-process.process-two {
+      padding: 10px 12px; }
+    section.common#landingProcessDesign .content .icon-process.process-three {
+      padding: 12px 20px; }
+    section.common#landingProcessDesign .content .icon-process.process-four {
+      padding: 12px 20px; }
+    section.common#landingProcessDesign .content .icon-process span {
+      background: #fff;
+      box-shadow: 0px 2px 4px rgba(102, 102, 102, 0.75);
+      border-radius: 50% 50% 50% 50%;
+      display: block;
+      height: 1.5rem;
+      width: 1.5rem;
+      text-align: center;
+      color: #0069AE;
+      font-weight: bold;
+      position: absolute;
+      top: 0;
+      right: -5px; }
+  section.common#landingProcessDesign .content h4 {
+    color: #002438;
+    font-size: 1.25rem;
+    font-weight: bold; }
+  section.common#landingProcessDesign .content p {
+    font-size: 0.9rem; }
+  section.common#tuCompetencia {
+    background: #f9f9f9; }
+    section.common#tuCompetencia .container-fluid {
+      padding-right: 0;
+      padding-left: 0; }
+      section.common#tuCompetencia .container-fluid #sketchEmpaque {
+        min-height: 25vh;
+        height: 50vh;
+        background: url("https://placehold.it/1200x800/ccc") no-repeat;
+        background-size: cover;
+        background-position: center; }
+      section.common#tuCompetencia .container-fluid .content.floated {
+        padding: 2rem 3rem; }
+  section.common#testimonial {
+    background: #002438; }
+    section.common#testimonial .content h4 {
+      color: #fff;
+      text-align: center; }
+    section.common#testimonial .content p {
+      text-align: center; }
+      section.common#testimonial .content p small {
+        color: #fff; }
 
 /*Footer*/
 footer {

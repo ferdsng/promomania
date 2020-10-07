@@ -840,9 +840,84 @@ section.common{
   &#landingProcessDesign{
     .content{
       .icon-process{
+        margin-top:$b*3;
+        margin-bottom:$b*2;
         background:$azulclaro;
-        height:$b*4;
-        width:$b*4;
+        height:$b*4.5;
+        width:$b*4.5;
+        display:block;
+        @include br(50%);
+        position:relative;
+        &.process-one{
+          padding:22px 12px;
+        }
+        &.process-two{
+          padding:10px 12px;
+        }
+        &.process-three{
+          padding:12px 20px;
+        }
+        &.process-four{
+          padding:12px 20px;
+        }
+        span{
+          background:$blanco;
+          @include bs(0px, 2px, 4px, rgba(102,102,102, 0.75));
+          @include br(50%);
+          display:block;
+          height:$b*1.5;
+          width:$b*1.5;
+          text-align:center;
+          color:$azulclaro;
+          font-weight:bold;
+          position:absolute;
+          top:0;
+          right:-5px;
+        }
+      }
+      h4{
+        color:$azuloscuro;
+        font-size:$b*1.25;
+        font-weight:bold;
+      }
+      p{
+        font-size:$b - 0.1;
+      }
+    }
+  }
+  /*Competencia*/
+  &#tuCompetencia{
+    background:#f9f9f9;
+    .container-fluid{
+      padding-right:0;
+      padding-left:0;
+      #sketchEmpaque{
+        min-height:25vh;
+        height:50vh;
+        background: url('https://placehold.it/1200x800/ccc') no-repeat;
+        background-size: cover;
+        background-position:center;
+      }
+      .content{
+        &.floated{
+          padding:$b*2 $b*3;
+        }
+      }
+    }
+  }
+  /*Testimonial*/
+  &#testimonial{
+    background:$azuloscuro;
+    .content{
+      h4{
+        color:$blanco;
+        text-align:center;
+      }
+      p{
+        text-align:center;
+        small{
+          color:$blanco;
+        }
       }
     }
   }
