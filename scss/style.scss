@@ -123,6 +123,23 @@ body{
       }
     }
   }
+  p{
+    text-align:center;
+    margin-bottom:0;
+    padding:$b*1.25;
+    &.logo{
+      font-size:$b*1.25;
+      font-family: $copper;
+      color:#004A98;
+      line-height:$b*1.2;
+      span.red{
+        color:#F5333F;
+      }
+      span.green{
+        color:#93D500;
+      }
+    }
+  }
 }
 
 header.hero-header{
@@ -930,6 +947,7 @@ section.common{
                 width:100%;
                 list-style: none;
                 margin-bottom: $b/2;
+                font-size:$b;
               }
             }
           }
@@ -952,6 +970,14 @@ section.common{
         }
       }
     }
+  }
+  /*Etiquetado*/
+  &#nuevoEtiquetado{
+    background: url('../images/landing/supermarket.jpg');
+    background-size: cover;
+    background-position:center;
+    min-height:50vh;
+    height:auto;
   }
 }
 

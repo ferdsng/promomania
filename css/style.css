@@ -86,6 +86,19 @@ body {
         @media (max-width: 767px) {
           .site-menu .menu-items li.item a {
             height: 66px; } }
+  .site-menu p {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 1.25rem; }
+    .site-menu p.logo {
+      font-size: 1.25rem;
+      font-family: "copperplatebold";
+      color: #004A98;
+      line-height: 1.2rem; }
+      .site-menu p.logo span.red {
+        color: #F5333F; }
+      .site-menu p.logo span.green {
+        color: #93D500; }
 
 header.hero-header {
   background: #fff url("https://kuiloa.mx/devs/ruizrocha/images/ruiz-rocha-asociados.jpg") no-repeat center center;
@@ -278,7 +291,8 @@ section.common {
   /*Contact Form*/
   /*Landing*/
   /*Competencia*/
-  /*Testimonial*/ }
+  /*Testimonial*/
+  /*Etiquetado*/ }
   section.common.min {
     padding: 4rem 0; }
   section.common.med {
@@ -763,7 +777,8 @@ section.common {
             section.common#tuCompetencia .container-fluid .content.floated .servicios-diseno ul li {
               width: 100%;
               list-style: none;
-              margin-bottom: 0.5rem; }
+              margin-bottom: 0.5rem;
+              font-size: 1rem; }
   section.common#testimonial {
     background: #002438; }
     section.common#testimonial .content h4 {
@@ -773,6 +788,12 @@ section.common {
       text-align: center; }
       section.common#testimonial .content p small {
         color: #fff; }
+  section.common#nuevoEtiquetado {
+    background: url("../images/landing/supermarket.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    height: auto; }
 
 /*Footer*/
 footer {
