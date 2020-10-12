@@ -112,6 +112,17 @@
 		"oAP": "\/fonts\/copperplate\/copperplate_bold-webfont.woff2",
 		"oF": 0
 		},
+	"\/images\/bakers-chefs-logo.png": {
+		"ft": 32768,
+		"iS": 28222,
+		"oA": 0,
+		"oAP": "\/images\/bakers-chefs-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/central-capital-humano.jpg": {
 		"ft": 16384,
 		"iS": 26175,
@@ -140,6 +151,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/etiquetado-1.png": {
+		"ft": 32768,
+		"iS": 5105,
+		"oA": 0,
+		"oAP": "\/images\/etiquetado-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/etiquetado-2.png": {
+		"ft": 32768,
+		"iS": 6403,
+		"oA": 0,
+		"oAP": "\/images\/etiquetado-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/etiquetado-3.png": {
+		"ft": 32768,
+		"iS": 4802,
+		"oA": 0,
+		"oAP": "\/images\/etiquetado-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/favicons\/android-chrome-192x192.png": {
@@ -415,6 +459,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/members-mark-logo.png": {
+		"ft": 32768,
+		"iS": 4484,
+		"oA": 0,
+		"oAP": "\/images\/members-mark-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/promomania-servicios.jpg": {
 		"ft": 16384,
 		"iS": 28109,
@@ -445,6 +500,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/sams-club-logo.png": {
+		"ft": 32768,
+		"iS": 6999,
+		"oA": 0,
+		"oAP": "\/images\/sams-club-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/social-media-icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -454,6 +520,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/superama-logo.png": {
+		"ft": 32768,
+		"iS": 4381,
+		"oA": 0,
+		"oAP": "\/images\/superama-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/triangle-blue-left-before.png": {
 		"ft": 32768,
@@ -493,6 +570,17 @@
 		"iS": 2663,
 		"oA": 0,
 		"oAP": "\/images\/triangle-white-right-before.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/walmart-logo.png": {
+		"ft": 32768,
+		"iS": 3889,
+		"oA": 0,
+		"oAP": "\/images\/walmart-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -794,6 +794,26 @@ section.common {
     background-position: center;
     min-height: 50vh;
     height: auto; }
+    section.common#nuevoEtiquetado .content {
+      padding: 5rem 0; }
+      section.common#nuevoEtiquetado .content h3 {
+        text-align: center;
+        color: #fff;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+        font-size: 1.5rem; }
+      section.common#nuevoEtiquetado .content ul {
+        width: 50%;
+        margin: 2rem auto 0 auto;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        @media (max-width: 767px) {
+          section.common#nuevoEtiquetado .content ul {
+            width: 95%; } }
+        section.common#nuevoEtiquetado .content ul li {
+          list-style: none;
+          margin-right: 1rem; }
 
 /*Footer*/
 footer {
