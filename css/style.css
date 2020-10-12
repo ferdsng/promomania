@@ -789,7 +789,7 @@ section.common {
       section.common#testimonial .content p small {
         color: #fff; }
   section.common#nuevoEtiquetado {
-    background: url("../images/landing/supermarket.jpg");
+    background: url("https://kuiloa.mx/devs/ruizrocha/images/landing/supermarket.jpg");
     background-size: cover;
     background-position: center;
     min-height: 50vh;
