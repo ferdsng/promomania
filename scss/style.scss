@@ -332,6 +332,7 @@ header.hero-header{
           form{
             .form-row{
               .form-group{
+                margin-bottom:8px;
                 label{
                   span{
                     font-size:$b - 0.3;
@@ -1153,6 +1154,7 @@ a.contacto-float-button{
   box-shadow:-2px 3px 8px rgba(130, 130, 130, 0.5);
   z-index:999;
   transition: all ease-in 0.1s;
+  cursor:pointer;
   &:hover{
     transform: scale(1.1, 1.1);
     box-shadow:0px 2px 6px rgba(100, 100, 100, 0.75);
