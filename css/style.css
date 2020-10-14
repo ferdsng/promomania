@@ -58,6 +58,11 @@ body {
   @media (max-width: 767px) {
     .site-menu {
       min-height: 66px; } }
+  .site-menu.landing img.logo-landing {
+    margin: 0.5rem auto;
+    display: block;
+    width: 100px;
+    height: auto; }
   .site-menu .menu-items {
     display: flex;
     align-items: center;
@@ -276,6 +281,19 @@ header.hero-header {
             text-align: center;
             font-size: 0.9rem;
             margin-bottom: 1.5rem; }
+          header.hero-header.interior.landing .content .formlanding p {
+            color: #666666;
+            text-align: center;
+            text-shadow: none; }
+            header.hero-header.interior.landing .content .formlanding p.logo {
+              font-size: 0.75rem;
+              font-family: "copperplatebold";
+              color: #004A98;
+              line-height: 1.2rem; }
+              header.hero-header.interior.landing .content .formlanding p.logo span.red {
+                color: #F5333F; }
+              header.hero-header.interior.landing .content .formlanding p.logo span.green {
+                color: #93D500; }
           header.hero-header.interior.landing .content .formlanding form .form-row .form-group {
             margin-bottom: 8px; }
             header.hero-header.interior.landing .content .formlanding form .form-row .form-group label span {
@@ -867,6 +885,15 @@ footer {
       margin-bottom: 1rem; }
     footer .footer-content p {
       color: #666666; }
+      footer .footer-content p.logo {
+        font-size: 0.75rem;
+        font-family: "copperplatebold";
+        color: #004A98;
+        line-height: 1.2rem; }
+        footer .footer-content p.logo span.red {
+          color: #F5333F; }
+        footer .footer-content p.logo span.green {
+          color: #93D500; }
     footer .footer-content a {
       color: #0069AE;
       font-weight: bold; }

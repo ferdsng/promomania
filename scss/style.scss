@@ -95,6 +95,14 @@ body{
   @media (max-width:767px){
     min-height:66px;
   }
+  &.landing{
+    img.logo-landing{
+      margin:$b/2 auto;
+      display:block;
+      width:100px;
+      height:auto;
+    }
+  }
   .menu-items{
     display:flex;
     align-items: center;
@@ -328,6 +336,23 @@ header.hero-header{
             text-align: center;
             font-size:$b - 0.1;
             margin-bottom:$b*1.5;
+          }
+          p{
+            color:$gristexto;
+            text-align:center;
+            text-shadow: none;
+            &.logo{
+              font-size:$b - 0.25;
+              font-family: $copper;
+              color:#004A98;
+              line-height:$b*1.2;
+              span.red{
+                color:#F5333F;
+              }
+              span.green{
+                color:#93D500;
+              }
+            }
           }
           form{
             .form-row{
@@ -1070,6 +1095,18 @@ footer{
     }
     p{
       color:$gristexto;
+      &.logo{
+        font-size:$b - 0.25;
+        font-family: $copper;
+        color:#004A98;
+        line-height:$b*1.2;
+        span.red{
+          color:#F5333F;
+        }
+        span.green{
+          color:#93D500;
+        }
+      }
     }
     a{
       color:$azulclaro;
