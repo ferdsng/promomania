@@ -795,7 +795,30 @@ section.common {
       section.common#testimonial .content p small {
         color: #fff; }
   section.common#focusGroup {
-    background: #0069AE; }
+    background: #0069AE;
+    position: relative; }
+    section.common#focusGroup .background-focus {
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background: url("../images/landing/focus-group.png") no-repeat;
+      position: absolute;
+      background-size: 750px 750px;
+      background-position: center;
+      top: 0;
+      left: 0;
+      opacity: 0.05; }
+    section.common#focusGroup .content h3 {
+      color: #fff;
+      font-family: "Kanit", sans-serif; }
+    section.common#focusGroup .content p {
+      color: #fff; }
+    section.common#focusGroup .content img {
+      display: block; }
+      @media (max-width: 767px) {
+        section.common#focusGroup .content img {
+          width: 75%;
+          margin: 0 auto; } }
   section.common#nuevoEtiquetado {
     background: url("https://kuiloa.mx/devs/ruizrocha/images/landing/supermarket.jpg");
     background-size: cover;
