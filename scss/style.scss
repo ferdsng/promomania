@@ -332,6 +332,15 @@ header.hero-header{
           form{
             .form-row{
               .form-group{
+                label{
+                  span{
+                    font-size:$b - 0.3;
+                    color:$azulclaro - 10;
+                    display: inline-block;
+                    font-weight:bold;
+
+                  }
+                }
                 .form-control{
                   background:#f7f7f7;
                   border:1px solid #c8c8c8;
@@ -970,6 +979,10 @@ section.common{
         }
       }
     }
+  }
+  /*Focus Group*/
+  &#focusGroup{
+    background:$azulclaro;
   }
   /*Etiquetado*/
   &#nuevoEtiquetado{

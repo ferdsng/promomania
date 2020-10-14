@@ -276,6 +276,11 @@ header.hero-header {
             text-align: center;
             font-size: 0.9rem;
             margin-bottom: 1.5rem; }
+          header.hero-header.interior.landing .content .formlanding form .form-row .form-group label span {
+            font-size: 0.7rem;
+            color: #005fa4;
+            display: inline-block;
+            font-weight: bold; }
           header.hero-header.interior.landing .content .formlanding form .form-row .form-group .form-control {
             background: #f7f7f7;
             border: 1px solid #c8c8c8; }
@@ -292,6 +297,7 @@ section.common {
   /*Landing*/
   /*Competencia*/
   /*Testimonial*/
+  /*Focus Group*/
   /*Etiquetado*/ }
   section.common.min {
     padding: 4rem 0; }
@@ -788,6 +794,8 @@ section.common {
       text-align: center; }
       section.common#testimonial .content p small {
         color: #fff; }
+  section.common#focusGroup {
+    background: #0069AE; }
   section.common#nuevoEtiquetado {
     background: url("https://kuiloa.mx/devs/ruizrocha/images/landing/supermarket.jpg");
     background-size: cover;
